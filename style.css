@@ -64,3 +64,10 @@ h1 {
     transform: scale(1.1);
     background-color: #222222;
 }
+
+@media (min-width: 1250px) {
+    .background {
+        right: 0;
+    }
+}
+  
