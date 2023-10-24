@@ -33,13 +33,18 @@ p {
 }
 
 .background {
-    width: 100%;
+    width: 200%;
     height: auto;
     position: fixed;
-    right: 50%;
+    right: 0;
     bottom: 0;
     z-index: -100;
     opacity: .2;
+    object-fit: cover;
+}
+
+img {
+    width: 100%;
 }
 
 h1 {
@@ -63,11 +68,5 @@ h1 {
 .sm a:hover {
     transform: scale(1.1);
     background-color: #222222;
-}
-
-@media (min-width: 1250px) {
-    .background {
-        right: 0;
-    }
 }
   
